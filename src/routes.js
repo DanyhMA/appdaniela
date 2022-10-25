@@ -1,5 +1,5 @@
 import React from "react";
-import {Route, BrowswerRouter} from "react-router-dom";
+import {Route, BrowserRouter} from "react-router-dom";
 
 import Home from "./Home";
 import Sobre from "./Sobre";
@@ -7,11 +7,11 @@ import Usuario from "./Usuario";
 
 const Routes = () => {
     return (
-        <BrowswerRouter>
+        <BrowserRouter>
         <Route component = {Home} path= "/" exact />
         <Route component = {Sobre} path= "/Sobre" />
         <Route component = {Usuario} path= "/Usuario" />
-        </BrowswerRouter>
+        </BrowserRouter>
     )
 }
 
