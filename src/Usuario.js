@@ -5,7 +5,7 @@ const Usuario=() =>{
     return(
         <div>
             <h1>Usuario</h1>
-            <link to="/">Retornar a página inicial</link>
+            <Link to="/">Retornar a página inicial</Link>
         </div>
     );
 }

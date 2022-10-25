@@ -5,7 +5,7 @@ const Sobre=() =>{
     return(
         <div>
             <h1>Sobre</h1>
-            <link to="/">Retornar a página inicial</link>
+            <Link to="/">Retornar a página inicial</Link>
         </div>
     );
 }

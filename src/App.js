@@ -1,10 +1,14 @@
 import React from 'react';
-import Routes from './Routes';
+import Rota from './Rota';
 
-
-
-export default function App (){
+function App (){
   return(
-    <Routes/>  
-  )
+    <div>
+      <header class='App-header'>
+        <Rota/>
+      </header>
+    </div>  
+  );
 }
+
+export default App;

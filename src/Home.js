@@ -8,10 +8,10 @@ const Home=() =>{
             <nav>
                 <ul>
                     <li>
-                        <link to="/Sobre">Sobre</link>
+                        <Link to="/Sobre">Sobre</Link>
                     </li>
                     <li>
-                        <link to="/usuario">Usuário</link>
+                        <Link to="/usuario">Usuário</Link>
                     </li>
                 </ul>
             </nav>
