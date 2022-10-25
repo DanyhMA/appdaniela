@@ -1,18 +1,15 @@
 import './App.css';
+import React, {useState} from 'react';
+import Routes from './routes';
 
-function Usuario(props){
-  return <h1>{props.texto}</h1>;
-}
-
-function App() {
-  return (
+function App (){
+  return(
     <div>
       <header class='App-header'>
-        <Usuario texto='nome' />
-        <Usuario texto='comentário' />
+        <Routes/>
       </header>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
